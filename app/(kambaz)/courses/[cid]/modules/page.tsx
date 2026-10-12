@@ -3,13 +3,33 @@ import Lesson from "./Lesson";
 export default function Modules() {
   return (
     <div>
-      <button type="button">Collapse All</button>{" "}
-      <button type="button">View Progress</button>{" "}
-      <select defaultValue="publish-all">
-        <option value="publish-all">Publish All</option>
-      </select>{" "}
-      <button type="button">+ Module</button>
-      <ul id="wd-modules">
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          className="rounded border border-neutral-300 bg-white px-3 py-1.5 text-sm"
+        >
+          Collapse All
+        </button>
+        <button
+          type="button"
+          className="rounded border border-neutral-300 bg-white px-3 py-1.5 text-sm"
+        >
+          View Progress
+        </button>
+        <select
+          defaultValue="publish-all"
+          className="rounded border border-neutral-300 bg-white px-3 py-1.5 text-sm"
+        >
+          <option value="publish-all">Publish All</option>
+        </select>
+        <button
+          type="button"
+          className="rounded border border-red-600 bg-red-600 px-3 py-1.5 text-sm font-medium text-white"
+        >
+          + Module
+        </button>
+      </div>
+      <ul id="wd-modules" className="m-0 list-none p-0">
         <Module title="Week 1, Lecture 1 - Course Introduction, Syllabus, Agenda">
           <Lesson title="LEARNING OBJECTIVES">
             <li className="wd-content-item">Introduction to the course</li>
@@ -42,6 +62,19 @@ export default function Modules() {
           <Lesson title="LEARNING OBJECTIVES">
             <li className="wd-content-item">CSS Styling</li>
           </Lesson>
+        </Module>
+        <Module title="Week 4 - Restyling Kambaz with Tailwind">
+          <Lesson title="MY BUILD NOTES">
+            <li className="wd-content-item">
+              Replace table layouts with flex containers
+            </li>
+            <li className="wd-content-item">
+              Fixed sidebar with a media-query content offset
+            </li>
+          </Lesson>
+        </Module>
+        <Module title="Sample module (AI)">
+          <Lesson title="Sample lesson (AI)" />
         </Module>
       </ul>
     </div>
