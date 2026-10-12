@@ -4,6 +4,7 @@ export default function Labs() {
     <div id="wd-labs">
       <h1>Labs</h1>
       <h2>Hamza Razi</h2>
+      <p>CS5610 Section 02</p>
       <ul>
         <li>
           <Link href="/labs/lab1">Lab 1: HTML Examples</Link>
@@ -27,15 +28,17 @@ export default function Labs() {
             Kambaz
           </Link>
         </li>
+        <li>
+          <a
+            href="https://github.com/Hamzarazi/webdev-client"
+            id="wd-github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub repository
+          </a>
+        </li>
       </ul>
-      <a
-        href="https://github.com/Hamzarazi/webdev-client"
-        id="wd-github"
-        target="_blank"
-        rel="noreferrer"
-      >
-        GitHub repository
-      </a>
     </div>
   );
 }
