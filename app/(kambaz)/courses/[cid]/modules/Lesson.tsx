@@ -13,7 +13,7 @@ export default function Lesson({
         <span className="wd-title">{title}</span>
         <GreenCheckmark />
       </div>
-      <ul className="wd-content mt-2 list-disc pl-6">{children}</ul>
+      {children && <ul className="wd-content mt-2 list-disc pl-6">{children}</ul>}
     </li>
   );
 }

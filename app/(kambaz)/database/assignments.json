@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "A101",
+    "title": "A1",
+    "course": "RS101",
+    "description": "Propulsion assignment: calculate the thrust and specific impulse of a liquid-fuel rocket engine.",
+    "points": 100,
+    "due": "2024-05-13",
+    "available": "2024-05-06"
+  },
+  {
+    "_id": "A102",
+    "title": "A2",
+    "course": "RS101",
+    "description": "Combustion analysis: compare the energy content and efficiency of three rocket propellants.",
+    "points": 100,
+    "due": "2024-05-20",
+    "available": "2024-05-13"
+  },
+  {
+    "_id": "A103",
+    "title": "A3",
+    "course": "RS101",
+    "description": "Nozzle design: size a converging-diverging nozzle for a given chamber pressure.",
+    "points": 100,
+    "due": "2024-05-27",
+    "available": "2024-05-20"
+  },
+  {
+    "_id": "A201",
+    "title": "A1",
+    "course": "RS102",
+    "description": "Aerodynamics assignment: compute lift and drag on a NACA 2412 airfoil.",
+    "points": 100,
+    "due": "2024-05-13",
+    "available": "2024-05-06"
+  },
+  {
+    "_id": "A202",
+    "title": "A2",
+    "course": "RS102",
+    "description": "Subsonic flow: apply thin airfoil theory to predict the lift curve slope.",
+    "points": 100,
+    "due": "2024-05-20",
+    "available": "2024-05-13"
+  },
+  {
+    "_id": "A203",
+    "title": "A3",
+    "course": "RS102",
+    "description": "Supersonic flow: analyze the oblique shock on a wedge at Mach 2.",
+    "points": 100,
+    "due": "2024-05-27",
+    "available": "2024-05-20"
+  },
+  {
+    "_id": "A204",
+    "title": "A4",
+    "course": "RS102",
+    "description": "Aerodynamics assignment: estimate the drag polar of a small UAV wing.",
+    "points": 100,
+    "due": "2024-06-03",
+    "available": "2024-05-27"
+  },
+  {
+    "_id": "A301",
+    "title": "A1",
+    "course": "RS103",
+    "description": "Spacecraft design: write the subsystem requirements for a CubeSat mission.",
+    "points": 100,
+    "due": "2024-05-13",
+    "available": "2024-05-06"
+  },
+  {
+    "_id": "A302",
+    "title": "A2",
+    "course": "RS103",
+    "description": "Orbital mechanics: plan a Hohmann transfer from LEO to GEO.",
+    "points": 100,
+    "due": "2024-05-20",
+    "available": "2024-05-13"
+  },
+  {
+    "_id": "A303",
+    "title": "A3",
+    "course": "RS103",
+    "description": "Power systems: size the solar arrays and batteries for a 3-year mission.",
+    "points": 100,
+    "due": "2024-05-27",
+    "available": "2024-05-20"
+  },
+  {
+    "_id": "A401",
+    "title": "A3 - JAVASCRIPT + REACT",
+    "course": "CS5610",
+    "description": "Render Kambaz courses, modules, assignments, and people from JSON, and encode course and assignment ids in the URL.",
+    "points": 100,
+    "due": "2026-10-25",
+    "available": "2026-10-12"
+  }
+]

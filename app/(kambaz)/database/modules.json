@@ -1,0 +1,288 @@
+[
+  {
+    "_id": "M101",
+    "name": "Introduction to Rocket Propulsion",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Rocket Propulsion Overview",
+        "description": "An overview of rocket propulsion principles.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "History of Rocketry",
+        "description": "A brief history of rocketry and space exploration.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Rocket Engine Types",
+        "description": "Overview of different types of rocket engines.",
+        "module": "M101"
+      },
+      {
+        "_id": "L104",
+        "name": "The Tsiolkovsky Rocket Equation",
+        "description": "How exhaust velocity and mass ratio set a rocket's delta-v.",
+        "module": "M101"
+      }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Fuel and Combustion",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Rocket Fuel",
+        "description": "Different types of rocket fuels and their properties.",
+        "module": "M102"
+      },
+      {
+        "_id": "L202",
+        "name": "Combustion Process",
+        "description": "Understanding the combustion process in rocket engines.",
+        "module": "M102"
+      },
+      {
+        "_id": "L203",
+        "name": "Combustion Efficiency",
+        "description": "Factors affecting combustion efficiency.",
+        "module": "M102"
+      },
+      {
+        "_id": "L204",
+        "name": "Nozzle Design",
+        "description": "How nozzle shape affects thrust.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Nozzle Theory",
+    "description": "Understanding rocket nozzles, expansion processes, and efficiency.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Introduction to Nozzle Theory",
+        "description": "An introduction to rocket nozzle theory.",
+        "module": "M103"
+      },
+      {
+        "_id": "L302",
+        "name": "Nozzle Expansion",
+        "description": "Understanding nozzle expansion and its effect on thrust.",
+        "module": "M103"
+      },
+      {
+        "_id": "L303",
+        "name": "Nozzle Efficiency",
+        "description": "Factors affecting nozzle efficiency.",
+        "module": "M103"
+      }
+    ]
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts including lift, drag, and pressure.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L401",
+        "name": "Introduction to Aerodynamics",
+        "description": "Overview of aerodynamic forces.",
+        "module": "M201"
+      },
+      {
+        "_id": "L402",
+        "name": "Lift and Drag",
+        "description": "How lift and drag act on a body in motion.",
+        "module": "M201"
+      },
+      {
+        "_id": "L403",
+        "name": "Pressure Distribution",
+        "description": "Pressure around an airfoil.",
+        "module": "M201"
+      }
+    ]
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic Flow",
+    "description": "Analysis of airflow below the speed of sound.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L501",
+        "name": "Incompressible Flow",
+        "description": "Assumptions and equations for incompressible flow.",
+        "module": "M202"
+      },
+      {
+        "_id": "L502",
+        "name": "Airfoil Theory",
+        "description": "Thin airfoil theory and lift coefficients.",
+        "module": "M202"
+      },
+      {
+        "_id": "L503",
+        "name": "Boundary Layers",
+        "description": "Laminar and turbulent boundary layers.",
+        "module": "M202"
+      }
+    ]
+  },
+  {
+    "_id": "M203",
+    "name": "Supersonic Flow",
+    "description": "Compressible flow, shock waves, and expansion fans.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L601",
+        "name": "Compressible Flow",
+        "description": "Introduction to compressible flow.",
+        "module": "M203"
+      },
+      {
+        "_id": "L602",
+        "name": "Shock Waves",
+        "description": "Normal and oblique shock waves.",
+        "module": "M203"
+      },
+      {
+        "_id": "L603",
+        "name": "Expansion Fans",
+        "description": "Prandtl-Meyer expansion waves.",
+        "module": "M203"
+      }
+    ]
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Overview",
+    "description": "Introduction to spacecraft subsystems and mission design.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L701",
+        "name": "Spacecraft Subsystems",
+        "description": "Structures, thermal, power, and communications.",
+        "module": "M301"
+      },
+      {
+        "_id": "L702",
+        "name": "Mission Requirements",
+        "description": "Turning mission goals into design requirements.",
+        "module": "M301"
+      },
+      {
+        "_id": "L703",
+        "name": "Systems Engineering",
+        "description": "Trade studies and design reviews.",
+        "module": "M301"
+      }
+    ]
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "description": "Fundamentals of orbits and orbital maneuvers.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L801",
+        "name": "Kepler's Laws",
+        "description": "The laws of planetary motion.",
+        "module": "M302"
+      },
+      {
+        "_id": "L802",
+        "name": "Orbital Elements",
+        "description": "Describing an orbit with six elements.",
+        "module": "M302"
+      },
+      {
+        "_id": "L803",
+        "name": "Orbital Maneuvers",
+        "description": "Hohmann transfers and plane changes.",
+        "module": "M302"
+      }
+    ]
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Power Systems",
+    "description": "Generating, storing, and distributing power in space.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L901",
+        "name": "Solar Arrays",
+        "description": "Photovoltaic power generation.",
+        "module": "M303"
+      },
+      {
+        "_id": "L902",
+        "name": "Batteries",
+        "description": "Energy storage for eclipse periods.",
+        "module": "M303"
+      },
+      {
+        "_id": "L903",
+        "name": "Power Distribution",
+        "description": "Regulating and distributing electrical power.",
+        "module": "M303"
+      }
+    ]
+  },
+  {
+    "_id": "M401",
+    "name": "Week 1 - HTML and the App Router",
+    "description": "Building the Kambaz prototype structure with HTML.",
+    "course": "CS5610",
+    "lessons": [
+      {
+        "_id": "L1001",
+        "name": "Learning Objectives",
+        "description": "Create Next.js pages and layouts with the App Router.",
+        "module": "M401"
+      },
+      {
+        "_id": "L1002",
+        "name": "Reading",
+        "description": "Chapter 1 - Building Next.js User Interfaces with HTML.",
+        "module": "M401"
+      }
+    ]
+  },
+  {
+    "_id": "M402",
+    "name": "Week 3 - JavaScript and Data-Driven UI",
+    "description": "Rendering Kambaz screens from JSON.",
+    "course": "CS5610",
+    "lessons": [
+      {
+        "_id": "L1003",
+        "name": "Learning Objectives",
+        "description": "Map arrays of courses, modules, and people onto components.",
+        "module": "M402"
+      },
+      {
+        "_id": "L1004",
+        "name": "Reading",
+        "description": "Chapter 3 - Creating Single Page Applications with JavaScript.",
+        "module": "M402"
+      }
+    ]
+  }
+]
