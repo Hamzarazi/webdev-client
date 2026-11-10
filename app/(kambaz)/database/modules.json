@@ -284,5 +284,12 @@
         "module": "M402"
       }
     ]
+  },
+  {
+    "_id": "M_HR",
+    "name": "HR - Hamza Razi Module",
+    "description": "Module added by Hamza Razi",
+    "course": "RS101",
+    "lessons": []
   }
 ]
