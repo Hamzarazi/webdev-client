@@ -13,6 +13,7 @@ function htmlDateStringToDate(dateString: string) {
 export default function DateStateVariable() {
   const [startDate, setStartDate] = useState(new Date(2026, 0, 15, 10, 30));
   const [endDate, setEndDate] = useState(new Date(2026, 4, 1, 10, 30));
+  const [dueDate, setDueDate] = useState(new Date(2026, 0, 22, 10, 30));
   return (
     <div id="wd-date-state-variables">
       <h2>Date State Variables</h2>
@@ -28,10 +29,18 @@ export default function DateStateVariable() {
       <h3>{dateObjectToHtmlDateString(endDate)}</h3>
       <input
         type="date"
-        className="block rounded border border-neutral-300 px-3 py-1.5"
+        className="mb-2 block rounded border border-neutral-300 px-3 py-1.5"
         value={dateObjectToHtmlDateString(endDate)}
         onChange={(e) => e.target.value && setEndDate(htmlDateStringToDate(e.target.value))}
         id="wd-end-date"
+      />
+      <h3>{dateObjectToHtmlDateString(dueDate)}</h3>
+      <input
+        type="date"
+        className="block rounded border border-neutral-300 px-3 py-1.5"
+        value={dateObjectToHtmlDateString(dueDate)}
+        onChange={(e) => e.target.value && setDueDate(htmlDateStringToDate(e.target.value))}
+        id="wd-due-date"
       />
       <hr />
     </div>

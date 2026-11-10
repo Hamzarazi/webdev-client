@@ -3,6 +3,7 @@ import { useState } from "react";
 export default function BooleanStateVariables() {
   const [done, setDone] = useState(true);
   const [urgent, setUrgent] = useState(false);
+  const [saved, setSaved] = useState(false);
   return (
     <div id="wd-boolean-state-variables">
       <h2>Boolean State Variables</h2>
@@ -27,6 +28,16 @@ export default function BooleanStateVariables() {
         Urgent
       </label>
       {urgent && <div className="mt-2 rounded bg-red-100 p-2">This is urgent</div>}
+      <label className="mt-2 flex items-center gap-2">
+        <input
+          type="checkbox"
+          checked={saved}
+          onChange={() => setSaved(!saved)}
+          id="wd-boolean-saved"
+        />
+        Saved
+      </label>
+      {saved && <div className="mt-2 rounded bg-green-100 p-2">Saved</div>}
       <hr />
     </div>
   );

@@ -2,6 +2,20 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
 import usersJson from "../database/users.json";
 export type User = (typeof usersJson)[number];
+export const emptyUser: User = {
+  _id: "0",
+  username: "",
+  password: "",
+  firstName: "",
+  lastName: "",
+  email: "",
+  dob: "",
+  role: "STUDENT",
+  loginId: "",
+  section: "S101",
+  lastActivity: "",
+  totalActivity: "",
+};
 type AccountContextValue = {
   currentUser: User | null;
   setCurrentUser: (user: User | null) => void;

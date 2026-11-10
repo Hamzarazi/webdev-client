@@ -1,10 +1,12 @@
 export default function PassingFunctions({
   message,
   theFunction,
+  theNameFunction,
   theOtherFunction,
 }: {
   message: string;
   theFunction: (message: string) => void;
+  theNameFunction: () => void;
   theOtherFunction: () => void;
 }) {
   return (
@@ -20,9 +22,17 @@ export default function PassingFunctions({
       </button>
       <button
         type="button"
+        onClick={theNameFunction}
+        id="wd-pass-functions-name-click"
+        className="me-2 rounded bg-blue-600 px-3 py-1.5 text-sm font-medium text-white"
+      >
+        Invoke the Name Function
+      </button>
+      <button
+        type="button"
         onClick={theOtherFunction}
         id="wd-pass-functions-other-click"
-        className="rounded bg-blue-600 px-3 py-1.5 text-sm font-medium text-white"
+        className="rounded bg-yellow-400 px-3 py-1.5 text-sm font-medium"
       >
         Invoke the Other Function
       </button>

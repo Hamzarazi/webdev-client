@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useAccountContext } from "../AccountContext";
+import { emptyUser, useAccountContext } from "../AccountContext";
 const field = "mb-2 w-full rounded border border-neutral-300 px-3 py-2";
 export default function Signup() {
   const [username, setUsername] = useState("");
@@ -20,20 +20,7 @@ export default function Signup() {
       setError("Passwords do not match");
       return;
     }
-    setCurrentUser({
-      _id: crypto.randomUUID(),
-      username,
-      password,
-      firstName: "",
-      lastName: "",
-      email: "",
-      dob: "",
-      role: "STUDENT",
-      loginId: "",
-      section: "",
-      lastActivity: "",
-      totalActivity: "",
-    });
+    setCurrentUser({ ...emptyUser, _id: crypto.randomUUID(), username, password });
     router.push("/account/profile");
   };
   return (

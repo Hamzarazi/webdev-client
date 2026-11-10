@@ -29,9 +29,17 @@ export default function PassingDataOnEvent() {
         type="button"
         onClick={() => lifeIs("Backend first, then the frontend")}
         id="wd-pass-data-custom-click"
-        className="rounded bg-green-600 px-3 py-1.5 text-sm font-medium text-white"
+        className="me-2 rounded bg-green-600 px-3 py-1.5 text-sm font-medium text-white"
       >
         Pass Custom Data
+      </button>
+      <button
+        type="button"
+        onClick={() => lifeIs("Web Development")}
+        id="wd-pass-data-course-click"
+        className="rounded bg-red-600 px-3 py-1.5 text-sm font-medium text-white"
+      >
+        Pass Course Name
       </button>
       <hr />
     </div>

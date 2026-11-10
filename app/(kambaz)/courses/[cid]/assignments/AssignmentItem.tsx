@@ -1,16 +1,18 @@
 import Link from "next/link";
-import { FaFileAlt } from "react-icons/fa";
+import { FaFileAlt, FaTrash } from "react-icons/fa";
 import GreenCheckmark from "../modules/GreenCheckmark";
 export default function AssignmentItem({
   cid,
   aid,
   title,
   details,
+  onDelete,
 }: {
   cid: string;
   aid: string;
   title: string;
   details: string;
+  onDelete?: () => void;
 }) {
   return (
     <li className="wd-assignment-list-item mb-3 flex items-start gap-3 border border-neutral-300 border-l-[3px] border-l-green-600 bg-white p-3">
@@ -24,7 +26,16 @@ export default function AssignmentItem({
         </Link>
         <div className="mt-1 text-sm text-neutral-600">{details}</div>
       </div>
-      <GreenCheckmark />
+      <span className="flex items-center gap-3">
+        {onDelete && (
+          <FaTrash
+            className="wd-delete-assignment cursor-pointer text-red-600"
+            title="Delete assignment"
+            onClick={onDelete}
+          />
+        )}
+        <GreenCheckmark />
+      </span>
     </li>
   );
 }
